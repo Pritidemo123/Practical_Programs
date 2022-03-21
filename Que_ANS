@@ -1,4 +1,33 @@
- What is the output of the below Java program with Method Overriding?
+What is the output of the below Java program with method overriding?
+class Cat
+{
+  int jumpingHeight(int weight)
+  {
+    System.out.println(10);
+    return 10;
+  }
+}
+class WildCat extends Cat
+{
+  void jumpingHeight(int weight)
+  {
+    System.out.println("20");
+  }
+}
+public class MethodOverriding3
+{
+  public static void main(String[] args)
+  {
+    WildCat wc = new WildCat();
+    wc.jumpingHeight(30);
+  }
+}
+A) 10
+B) 20
+C) 30
+D) Compiler error
+---------
+What is the output of the below Java program with Method Overriding?
 class Bus
 {
   void seatingCapacity()
