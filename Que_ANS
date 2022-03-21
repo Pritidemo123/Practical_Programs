@@ -1,3 +1,14 @@
+ Which one of the following can’t be used for polymorphism?
+
+A. Member functions overloading
+B. Static member functions
+C. global member function
+D. Constructor overloading
+
+ 
+ 
+ 
+ -----------------------
  In below java code, whose “Car” will be called?
 
 class Father {
