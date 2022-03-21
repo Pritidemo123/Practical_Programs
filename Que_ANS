@@ -1,3 +1,54 @@
+4.	What will be the output of the following code?
+class Base {
+	public void Print() {
+		System.out.println("Base");
+			     }		
+}
+class Derived extends Base {	
+		public void Print() {
+		System.out.println("Derived");
+		}
+}
+class Main{
+		public static void DoPrint( Base o ) {
+		o.Print();
+		}	
+		public static void main(String[] args) {
+		Base x = new Base();
+		Base y = new Derived();
+		Derived z = new Derived();
+		DoPrint(x);
+		DoPrint(y);
+		DoPrint(z);
+		}}
+  	  Options:
+	a) Base,Derived, Derived
+	b) Base,Base,Derived
+   	(c) Base,Derived,Base
+        (d) Compiler Error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Q)	What is wrong with the below code? Why is it showing a compile time error?
 public class A
 {
