@@ -1,0 +1,19 @@
+Why Line System.out.println(m) in the below code is showing compilation error?
+class X
+{
+   	 private int m = 48;
+}
+ 
+class Y extends X
+{
+    		void Print()
+    	{
+      		  System.out.println(m);
+   	 }
+}
+ 
+Options:
+a) Because, private field ‘m’ is visible to class Y.
+b) Because, private field ‘m’ is not visible to class Y.
+c) Because, private field ‘m’ is accessible to X & Y.
+d) Because, private field ‘m’ cannot be initialized.
