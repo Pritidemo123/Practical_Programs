@@ -1,0 +1,70 @@
+3.	What is wrong with the below code? Why is it showing a compile time error?
+public class A
+{
+  	  public A()
+   	 {
+       		 System.out.println(1);
+ 
+        		super();
+ 
+        		System.out.println(2);
+   	 }
+}
+
+Options:
+a) Constructor calling statements ( super() or this() ), if written, must be the first statements in the constructor.
+public class A
+{
+	public A()
+	{
+		super();         
+
+		System.out.println(1);
+
+		System.out.println(2);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+b) Constructor calling statements ( super() or this() ), if written, must be the last statements in the constructor.
+ 
+public class A
+{
+	public A()
+	{
+System.out.println(1);
+		System.out.println(2);
+super();         
+
+	}
+}
+
+c) Constructor calling statements ( super() or this() ), if written, must be between the sop statements in the constructor.
+public class A
+{
+	public A()
+	{
+		System.out.println(1);
+super();         
+		System.out.println(2);
+	}
+}
+
+d) Constructor calling statements ( super() or this() ), if written, must be the inside statements in the constructor. 
+public class A
+{
+	public A()
+	{
+		System.out.println(1, super(););
+		System.out.println(2, super(););
+	}
+}
