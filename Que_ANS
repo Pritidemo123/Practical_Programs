@@ -1,3 +1,18 @@
+ Which is the correct way of overriding a method throwing exceptions in Java?
+A) 
+void show() throws IOException{ }
+.
+.
+void show() throws FileNotFoundException{ }
+B) 
+void show() throws IOException{ }
+void show() throws ArithmeticException{ }
+C) 
+void show() throws ArithmeticException{ }
+void show() throws IllegalFormatException{ }
+D) None
+
+-----
 What is the output of the below Java program with method overriding?
 class Cat
 {
